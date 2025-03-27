@@ -24,7 +24,7 @@ input[type="number"], select {
     font-family: 'Times New Roman', Times, serif;
     padding: 10px; /* Aumenta o padding dos inputs */
     margin: 10px 0;
-    font-size: 1.7em; /* Aumenta o tamanho da fonte */
+    font-size: 1.7em;
 }
 button {
     width: 100%;
