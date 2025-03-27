@@ -1,0 +1,47 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #164863; /* Nova cor de fundo */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da tela */
+}
+.container {
+    max-width: 1000px; /* Aumenta a largura máxima do conversor */
+    width: 100%; /* Faz o conversor ocupar 100% da largura disponível */
+    background: white;
+    padding: 50px; /* Aumenta o padding */
+    border-radius: 50px; /* Aumenta o raio da borda */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+}
+h1 {
+    text-align: center;
+}
+input[type="number"], select {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px; /* Aumenta o padding dos inputs */
+    margin: 10px 0;
+    font-size: 1.7em; /* Aumenta o tamanho da fonte */
+}
+button {
+    width: 100%;
+    padding: 15px; /* Aumenta o padding do botão */
+    background-color: #427d9d;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.7em; /* Aumenta o tamanho da fonte do botão */
+}
+button:hover {
+    background-color: #316079;
+}
+.result {
+    margin-top: 20px;
+    font-size: 1.7em; /* Aumenta o tamanho da fonte do resultado */
+    text-align: center;
+}
